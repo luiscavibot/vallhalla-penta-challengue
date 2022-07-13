@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Grid } from '@mui/material';
 import { DataCard } from './DataCard';
-import { sliceMoviesArray } from '../helpers/SliceMoviesArray';
+import { sliceMoviesArray } from '../helpers/sliceMoviesArray';
 
 export const ResultsView = ({ movies, page }) => {
 	let moviesSlice = sliceMoviesArray(movies, page);
